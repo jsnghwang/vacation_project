@@ -45,3 +45,26 @@
 #### 3. 활동 인증 사진
 <img width="1917" height="951" alt="image" src="https://github.com/user-attachments/assets/106fb3cc-be3b-4c45-8ed7-e0c50daf8a96" />
 
+
+
+### 3주차: Java & Spring Boot 기초 및 REST Controller 실습
+* **활동 일시:** 2026년 8월 2일 (일) 20:00 ~ 23:00 (총 3시간)
+* **모임 장소:** 온라인 (Zoom)
+* **참석자:** 김민규, 이다준, 황재성
+
+#### 1. 실제 작업 내역
+* **Java & Spring Boot 개발 환경 구축**
+  * IntelliJ IDEA 환경에서 JDK 17 설정 및 Spring Boot 프로젝트 생성
+  * Spring Initializr를 활용한 기본 의존성(Spring Web) 추가 및 프로젝트 구조 파악
+* **Spring Boot REST Controller 기초 실습**
+  * `@RestController` 및 `@GetMapping` 어노테이션을 활용한 기본 API 작성
+  * 브라우저 및 Postman을 활용하여 HTTP GET 요청에 대한 응답 반환 실습
+
+#### 2. 이번 주 이슈 및 해결
+* **이슈:** JDK 버전 미설정 문제 및 local server running 시 8080 포트 중복 에러 발생.
+* **해결:** IntelliJ Project Structure에서 프로젝트 SDK 버전을 명확히 지정하고, 기존에 실행 중이던 프로세스를 종료하여 해결.
+
+#### 3. 활동 인증 사진
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/b7decd1f-7720-4b1f-9a29-fe90a2c0a539" />
+
+
