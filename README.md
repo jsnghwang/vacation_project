@@ -68,3 +68,23 @@
 <img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/b7decd1f-7720-4b1f-9a29-fe90a2c0a539" />
 
 
+### 4주차: 데이터베이스(MySQL) 연동 및 CRUD 기초 구현
+* **활동 일시:** 2026년 8월 16일 (일) 20:00 ~ 23:00 (총 3시간)
+* **모임 장소:** 온라인 (Zoom)
+* **참석자:** 김민규, 이다준, 황재성
+
+#### 1. 실제 작업 내역
+* **MySQL 데이터베이스 연동 (Spring Data JPA)**
+  * 로컬 환경에 MySQL 데이터베이스 설치 및 스키마 생성
+  * `application.properties` 파일을 활용한 Spring Boot와 데이터베이스 연결 설정
+* **기초 CRUD 기능 구현**
+  * 데이터를 생성(Create), 조회(Read)하는 기본 비즈니스 로직 작성
+  * Postman을 이용해 데이터가 DB에 정상적으로 저장되고 조회되는지 테스트
+
+#### 2. 이번 주 이슈 및 해결
+* **이슈:** 데이터베이스 접속 정보 설정 오류로 인해 Spring Boot 실행 시 `Access denied for user` 에러 발생.
+* **해결:** `application.properties`에 작성한 MySQL 접속 비밀번호와 URL 경로를 재확인하고 수정하여 해결.
+
+#### 3. 활동 인증 사진
+<img width="1377" height="970" alt="image" src="https://github.com/user-attachments/assets/cc43f1b5-5065-4a31-9d17-8b4bdc24c527" />
+
